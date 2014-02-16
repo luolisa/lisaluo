@@ -1,0 +1,86 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// By Lisa Luo
+// Created 2/16/2014
+// Last modified 2/16/2014
+
+p{
+  font-family:"Times New Roman",Times,Serif;
+}
+
+// SIDEBAR STYLING
+//////////////////
+#sidebar{
+  width:300px;
+  background:black;
+  color:white;
+  position:fixed; // Keeps sidebar from scrolling with page.
+  top:0;
+  left:0;
+  bottom:0; // adjust as needed for a footer
+}
+
+#sidebar_image{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#sidebar_name{
+  text-align:center;
+  color:white;
+}
+
+#sidebar_quote{
+  font-style:Italic;
+  padding:25px;
+}
+
+.sidebar_text{
+ color:white;
+  text-align:center;
+}
+
+// For social media icons.
+#sidebar_footer{
+  position:absolute; // Absolute fixes footer to bottom.
+  bottom:25px;       // Center in the HTML using align.
+  height:50px;
+  width:100%;
+}
+
+// MAINPAGE STYLING
+///////////////////
+// Pixel buffer for the sidebar
+.mainpage{
+  left:301.5px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  background-color:black;
+}
+
+.mainpage_text{
+  margin-left:10px; // Because this falls under the mainpage hierarchy, already
+  //color:white;      // 300px moved over.
+}
+
+// Portfolio, Projects, Inspirations
+.mainpage_tabs{
+  padding:30px;
+  font-size:xx-large;
+  color:white;
+}
+
+.content{
+  padding:15px;
+}
+
+.category_name{
+  color:white;
+  font-size:x-large;
+  padding:5px;
+  text-align:right;
+}

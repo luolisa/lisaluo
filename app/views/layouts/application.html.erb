@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lisaluo</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<!--Design the sidebar for the application.-->
+ <div id="sidebar">
+  <div id="sidebar_image">
+    <%= link_to image_tag("temp_image.png"), :controller => "home" %>
+  </div>
+  <div id="sidebar_name">Lisa Luo</div>
+  <div class="sidebar_text">step into my world.</div>
+  <div id="sidebar_quote">
+    <p>"I love to fly. It's just, you're alone
+    with peace and quiet, nothing around you but clear,
+    blue sky. No one to hassle you. No one to tell you
+    where to go or what to do. The only bad part about
+    flying is having to come back down to the fucking world."</p>
+  </div>
+  <div id="sidebar_footer">
+    <div align="center">
+       <%= link_to image_tag("dark_linkedin.png"), "http://www.linkedin.com/pub/lisa-luo/36/770/4a" %>
+       <%= link_to image_tag("dark_facebook.png"), "https://www.facebook.com/lluo92" %>
+       <%= link_to image_tag("dark_twitter.png"), "https://twitter.com/luoser" %>
+     </div>
+   </div>
+</div>
+
+<!--Lay out the main page-->
+<div class="mainpage">
+  <div class="mainpage_tabs">
+    <div class="row-fluid">
+      <div class="span4">
+        <a href="portfolio">Portfolio</a>
+      </div>
+      <div class="span4"><a href="projects">Projects</a></div>
+      <div class="span4"><a href="inspiration">Inspiration</a></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <!--Should be the yield for the content......-->
+    <%= yield %>
+
+  </div>
+
+</div>
+</body>
+</html>
