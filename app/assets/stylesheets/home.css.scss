@@ -6,8 +6,9 @@
 // Created 2/16/2014
 // Last modified 2/16/2014
 
-p{
-  font-family:"Times New Roman",Times,Serif;
+
+html *{
+  font-family: "Andale Mono", monospace;
 }
 
 // SIDEBAR STYLING
@@ -30,6 +31,8 @@ p{
 #sidebar_name{
   text-align:center;
   color:white;
+  font-size:x-large;
+  padding:5px;
 }
 
 #sidebar_quote{
@@ -79,8 +82,15 @@ p{
 }
 
 .category_name{
-  color:white;
+  //color:white;
   font-size:x-large;
   padding:5px;
   text-align:right;
+  border-bottom:3px dotted;
 }
+
+//.dotted_break{
+//  border-top:1px dotted;
+//  height:2px;
+//  width:100%;
+//}
