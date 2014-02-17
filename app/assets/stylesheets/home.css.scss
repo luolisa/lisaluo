@@ -9,6 +9,23 @@
 
 html *{
   font-family: "Andale Mono", monospace;
+  color:rgb(50,50,50);
+}
+
+//#under_construction{
+//  position:fixed;
+//  padding:0;
+//  margin:0;
+//  width:100%;
+//  height:100%;
+//  opacity:0.5;
+//}
+
+under_construction{
+  color:red;
+  font-size:xx-large;
+  text-align:center;
+  padding:30px;
 }
 
 // SIDEBAR STYLING
@@ -16,7 +33,7 @@ html *{
 #sidebar{
   width:300px;
   background:black;
-  color:white;
+  //color:white;
   position:fixed; // Keeps sidebar from scrolling with page.
   top:0;
   left:0;
@@ -72,7 +89,7 @@ html *{
 
 // Portfolio, Projects, Inspirations
 .mainpage_tabs{
-  padding:30px;
+  padding:20px;
   font-size:xx-large;
   color:white;
 }
