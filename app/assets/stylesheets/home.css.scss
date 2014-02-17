@@ -79,12 +79,10 @@ under_construction{
 ///////////////////
 // Pixel buffer for the sidebar
 .mainpage{
-  left:301.5px;
-  position:absolute;
-  top:0;
-  bottom:0;
-  right:0;
+  margin-left:301.5px;
+  //position:absolute;
   background-color:black;
+  height:100%;
 }
 
 .mainpage_text{
@@ -119,5 +117,5 @@ under_construction{
 
 .media{
   padding:10px;
-  height:145px;
+  //height:200px;
 }
