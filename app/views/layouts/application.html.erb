@@ -5,6 +5,12 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <!-- Load Paper.js library -->
+  <script type="text/javascript" src="js/paper.js"></script>
+  <!-- Define inlined JavaScript -->
+  <script type="text/paperscript" src="assets/divisionRaster.js" canvas="myCanvas"></script>
+
+
 </head>
 
 <body>
