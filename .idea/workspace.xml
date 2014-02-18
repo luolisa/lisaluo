@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portfolio/index.html.erb" afterPath="$PROJECT_DIR$/app/views/portfolio/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lisaluo.iws" />
@@ -80,7 +78,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/portfolio/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="51" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.4148398">
+            <state line="100" column="72" selection-start="2403" selection-end="2403" vertical-scroll-proportion="0.5413153">
               <folding />
             </state>
           </provider>
@@ -651,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolio/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="51" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.4148398">
+        <state line="100" column="72" selection-start="2403" selection-end="2403" vertical-scroll-proportion="0.5413153">
           <folding />
         </state>
       </provider>
