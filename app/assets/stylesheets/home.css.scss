@@ -105,8 +105,17 @@ under_construction{
   color:white;
 }
 
+#mainpage_footer{
+  position:fixed; // Absolute fixes footer to bottom.
+  bottom:25px;       // Center in the HTML using align.
+  height:50px;
+  width:100%;
+  text-align:center;
+  font-size:xx-large;
+}
+
 .content{
-  padding:15px;
+  padding:10px;
 }
 
 .category_name{
