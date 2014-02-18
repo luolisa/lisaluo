@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Bottle_Lisa Luo CLass VII.JPG" afterPath="$PROJECT_DIR$/app/assets/images/Bottle_Lisa Luo CLass VII.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Milk in WaterColor_Lisa Luo Class VI.JPG" afterPath="$PROJECT_DIR$/app/assets/images/Milk in WaterColor_Lisa Luo Class VI.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Window_Lisa Luo Class VII.JPG" afterPath="$PROJECT_DIR$/app/assets/images/Window_Lisa Luo Class VII.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/underdog.png" afterPath="$PROJECT_DIR$/app/assets/images/underdog.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portfolio/index.html.erb" afterPath="$PROJECT_DIR$/app/views/portfolio/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lisaluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="7" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.85714287">
+            <state line="120" column="7" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/portfolio/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="36" selection-start="2209" selection-end="2209" vertical-scroll-proportion="-7.125">
+            <state line="95" column="51" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.4148398">
               <folding />
             </state>
           </provider>
@@ -128,8 +125,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/portfolio/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/portfolio/index.html.erb" />
       </list>
     </option>
   </component>
@@ -645,16 +642,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portfolio/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="36" selection-start="2209" selection-end="2209" vertical-scroll-proportion="-7.125">
+        <state line="120" column="7" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/portfolio/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="7" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.85714287">
+        <state line="95" column="51" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.4148398">
           <folding />
         </state>
       </provider>
