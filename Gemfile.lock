@@ -63,6 +63,7 @@ GEM
     less-rails (2.4.2)
       actionpack (>= 3.1)
       less (~> 2.4.0)
+    libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -96,6 +97,7 @@ GEM
     rake (10.1.1)
     rdoc (4.1.1)
       json (~> 1.4)
+    ref (1.0.5)
     sass (3.2.14)
     sass-rails (4.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -113,6 +115,9 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    therubyracer (0.12.0)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.18.1)
     thread_safe (0.1.3)
       atomic
@@ -144,6 +149,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.0)
   sdoc
+  therubyracer
   turbolinks
   twitter-bootstrap-rails!
   uglifier (>= 1.3.0)

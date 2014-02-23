@@ -4,9 +4,7 @@
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lisaluo.iml" afterPath="$PROJECT_DIR$/.idea/lisaluo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lisaluo.iws" />
@@ -46,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5718475">
+            <state line="15" column="2" selection-start="598" selection-end="598" vertical-scroll-proportion="-8.125">
               <folding>
                 <marker date="1393156947000" expanded="true" signature="663:1763" placeholder="..." />
                 <marker date="1393156947000" expanded="true" signature="1815:2283" placeholder="..." />
@@ -94,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="11" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
+            <state line="32" column="16" selection-start="902" selection-end="902" vertical-scroll-proportion="-0.23579545">
               <folding />
             </state>
           </provider>
@@ -153,8 +151,8 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/test.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -750,6 +748,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="598" selection-end="598" vertical-scroll-proportion="-8.125">
+          <folding>
+            <marker date="1393156947000" expanded="true" signature="663:1763" placeholder="..." />
+            <marker date="1393156947000" expanded="true" signature="1815:2283" placeholder="..." />
+            <marker date="1393156947000" expanded="true" signature="1859:2105" placeholder="..." />
+            <marker date="1393156947000" expanded="true" signature="1888:2096" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="25" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
@@ -761,20 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="11" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
+        <state line="32" column="16" selection-start="902" selection-end="902" vertical-scroll-proportion="-0.23579545">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5718475">
-          <folding>
-            <marker date="1393156947000" expanded="true" signature="663:1763" placeholder="..." />
-            <marker date="1393156947000" expanded="true" signature="1815:2283" placeholder="..." />
-            <marker date="1393156947000" expanded="true" signature="1859:2105" placeholder="..." />
-            <marker date="1393156947000" expanded="true" signature="1888:2096" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
