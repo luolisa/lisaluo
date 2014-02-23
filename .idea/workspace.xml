@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/test.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/test.js" />
     </list>
     <ignored path="lisaluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,21 +46,35 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="18" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+            <state line="9" column="30" selection-start="379" selection-end="379" vertical-scroll-proportion="-4.375">
               <folding>
-                <marker date="1392729958000" expanded="true" signature="506:1606" placeholder="..." />
-                <marker date="1392729958000" expanded="true" signature="1658:2126" placeholder="..." />
-                <marker date="1392729958000" expanded="true" signature="1702:1948" placeholder="..." />
-                <marker date="1392729958000" expanded="true" signature="1731:1939" placeholder="..." />
+                <marker date="1393151558000" expanded="true" signature="496:1596" placeholder="..." />
+                <marker date="1393151558000" expanded="true" signature="1648:2116" placeholder="..." />
+                <marker date="1393151558000" expanded="true" signature="1692:1938" placeholder="..." />
+                <marker date="1393151558000" expanded="true" signature="1721:1929" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="-6.25">
+              <folding>
+                <marker date="1393151601000" expanded="true" signature="115:128" placeholder="..." />
+                <marker date="1393151601000" expanded="true" signature="449:880" placeholder="..." />
+                <marker date="1393151601000" expanded="true" signature="479:716" placeholder="{...}" />
+                <marker date="1393151601000" expanded="true" signature="530:576" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="1" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0">
+            <state line="14" column="16" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5412371">
               <folding />
             </state>
           </provider>
@@ -70,20 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20604396">
-              <folding>
-                <marker date="1393151360000" expanded="true" signature="115:128" placeholder="..." />
-                <marker date="1393151360000" expanded="true" signature="383:814" placeholder="..." />
-                <marker date="1393151360000" expanded="true" signature="413:650" placeholder="{...}" />
-                <marker date="1393151360000" expanded="true" signature="464:510" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -117,11 +118,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/voroni.js" />
         <option value="$PROJECT_DIR$/app/views/portfolio/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/test.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/test.js" />
       </list>
     </option>
   </component>
@@ -133,8 +134,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="188" />
+    <option name="x" value="116" />
+    <option name="y" value="177" />
     <option name="width" value="1134" />
     <option name="height" value="671" />
   </component>
@@ -215,6 +216,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lisaluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lisaluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,7 +533,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="188" width="1134" height="671" extended-state="0" />
+    <frame x="116" y="177" width="1134" height="671" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -638,13 +661,6 @@
         <state line="29" column="85" selection-start="929" selection-end="32979" vertical-scroll-proportion="-18.125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="1" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/paper/examples/Rasters/PhyllotaxisRaster.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="0" selection-start="2744" selection-end="24637" vertical-scroll-proportion="-19.083334" />
@@ -653,6 +669,13 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="15" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js">
@@ -664,32 +687,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+        <state line="9" column="30" selection-start="379" selection-end="379" vertical-scroll-proportion="-4.375">
           <folding>
-            <marker date="1392729958000" expanded="true" signature="506:1606" placeholder="..." />
-            <marker date="1392729958000" expanded="true" signature="1658:2126" placeholder="..." />
-            <marker date="1392729958000" expanded="true" signature="1702:1948" placeholder="..." />
-            <marker date="1392729958000" expanded="true" signature="1731:1939" placeholder="..." />
+            <marker date="1393151558000" expanded="true" signature="496:1596" placeholder="..." />
+            <marker date="1393151558000" expanded="true" signature="1648:2116" placeholder="..." />
+            <marker date="1393151558000" expanded="true" signature="1692:1938" placeholder="..." />
+            <marker date="1393151558000" expanded="true" signature="1721:1929" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="15" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20604396">
+        <state line="10" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="-6.25">
           <folding>
-            <marker date="1393151360000" expanded="true" signature="115:128" placeholder="..." />
-            <marker date="1393151360000" expanded="true" signature="383:814" placeholder="..." />
-            <marker date="1393151360000" expanded="true" signature="413:650" placeholder="{...}" />
-            <marker date="1393151360000" expanded="true" signature="464:510" placeholder="{...}" />
+            <marker date="1393151601000" expanded="true" signature="115:128" placeholder="..." />
+            <marker date="1393151601000" expanded="true" signature="449:880" placeholder="..." />
+            <marker date="1393151601000" expanded="true" signature="479:716" placeholder="{...}" />
+            <marker date="1393151601000" expanded="true" signature="530:576" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5412371">
+          <folding />
         </state>
       </provider>
     </entry>
