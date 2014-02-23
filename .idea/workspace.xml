@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,12 +77,12 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="249" selection-end="249" vertical-scroll-proportion="0.24725275">
+            <state line="5" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20604396">
               <folding>
-                <marker date="1393150970000" expanded="true" signature="115:128" placeholder="..." />
-                <marker date="1393150970000" expanded="true" signature="401:832" placeholder="..." />
-                <marker date="1393150970000" expanded="true" signature="431:668" placeholder="{...}" />
-                <marker date="1393150970000" expanded="true" signature="482:528" placeholder="{...}" />
+                <marker date="1393151360000" expanded="true" signature="115:128" placeholder="..." />
+                <marker date="1393151360000" expanded="true" signature="383:814" placeholder="..." />
+                <marker date="1393151360000" expanded="true" signature="413:650" placeholder="{...}" />
+                <marker date="1393151360000" expanded="true" signature="464:510" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -685,12 +683,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="249" selection-end="249" vertical-scroll-proportion="0.24725275">
+        <state line="5" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20604396">
           <folding>
-            <marker date="1393150970000" expanded="true" signature="115:128" placeholder="..." />
-            <marker date="1393150970000" expanded="true" signature="401:832" placeholder="..." />
-            <marker date="1393150970000" expanded="true" signature="431:668" placeholder="{...}" />
-            <marker date="1393150970000" expanded="true" signature="482:528" placeholder="{...}" />
+            <marker date="1393151360000" expanded="true" signature="115:128" placeholder="..." />
+            <marker date="1393151360000" expanded="true" signature="383:814" placeholder="..." />
+            <marker date="1393151360000" expanded="true" signature="413:650" placeholder="{...}" />
+            <marker date="1393151360000" expanded="true" signature="464:510" placeholder="{...}" />
           </folding>
         </state>
       </provider>
