@@ -13,3 +13,5 @@ raster.position.x += 100;
 // Scale the path and the raster by 300%, so we can compare them:
 circle.scale(5);
 raster.scale(5);
+
+console.log('TESTTTTTT');
