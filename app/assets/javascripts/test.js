@@ -14,4 +14,4 @@ raster.position.x += 100;
 circle.scale(5);
 raster.scale(5);
 
-console.log('TESTTTTTT');
+console.log('WOOHOO!');
