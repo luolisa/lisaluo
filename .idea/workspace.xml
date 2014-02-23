@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/test.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/test.js" />
     </list>
     <ignored path="lisaluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,24 +55,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="-6.25">
+            <state line="12" column="22" selection-start="379" selection-end="379" vertical-scroll-proportion="0.4945055">
               <folding>
-                <marker date="1393151601000" expanded="true" signature="115:128" placeholder="..." />
-                <marker date="1393151601000" expanded="true" signature="449:880" placeholder="..." />
-                <marker date="1393151601000" expanded="true" signature="479:716" placeholder="{...}" />
-                <marker date="1393151601000" expanded="true" signature="530:576" placeholder="{...}" />
+                <marker date="1393152213000" expanded="true" signature="115:128" placeholder="..." />
+                <marker date="1393152213000" expanded="true" signature="552:983" placeholder="..." />
+                <marker date="1393152213000" expanded="true" signature="582:819" placeholder="{...}" />
+                <marker date="1393152213000" expanded="true" signature="633:679" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5412371">
+            <state line="14" column="16" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,8 +119,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/test.js" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
       </list>
     </option>
   </component>
@@ -697,22 +695,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="-6.25">
-          <folding>
-            <marker date="1393151601000" expanded="true" signature="115:128" placeholder="..." />
-            <marker date="1393151601000" expanded="true" signature="449:880" placeholder="..." />
-            <marker date="1393151601000" expanded="true" signature="479:716" placeholder="{...}" />
-            <marker date="1393151601000" expanded="true" signature="530:576" placeholder="{...}" />
-          </folding>
+        <state line="14" column="16" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5412371">
-          <folding />
+        <state line="12" column="22" selection-start="379" selection-end="379" vertical-scroll-proportion="0.4945055">
+          <folding>
+            <marker date="1393152213000" expanded="true" signature="115:128" placeholder="..." />
+            <marker date="1393152213000" expanded="true" signature="552:983" placeholder="..." />
+            <marker date="1393152213000" expanded="true" signature="582:819" placeholder="{...}" />
+            <marker date="1393152213000" expanded="true" signature="633:679" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
