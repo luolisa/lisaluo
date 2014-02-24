@@ -28,7 +28,7 @@ Lisaluo::Application.configure do
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   # CHANGED to TRUE 14/2/23
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Generate digests for assets URLs.
   config.assets.digest = true

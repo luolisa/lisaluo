@@ -67,3 +67,5 @@ function onResize(event) {
         onMouseMove: moveHandler
     });
 }
+
+console.log('end of raster file');
