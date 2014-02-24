@@ -5,6 +5,7 @@ console.log('in raster file');
 
 // Create a raster item:
 var raster = new Raster('drugs');
+console.log('created raster object');
 var loaded = false;
 
 raster.on('load', function() {
