@@ -1,3 +1,5 @@
+console.log('WOOHOO!');
+
 var circle = new Path.Circle({
     center: [80, 50],
     radius: 5,
@@ -14,4 +16,3 @@ raster.position.x += 100;
 circle.scale(5);
 raster.scale(5);
 
-console.log('WOOHOO!');
