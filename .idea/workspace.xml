@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Downloads/paperjs-v0.9.15/dist/paper-core.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Downloads/paperjs-v0.9.15/dist/paper-core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Downloads/paperjs-v0.9.15/dist/paper-full.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Downloads/paperjs-v0.9.15/dist/paper-full.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/paper.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/paper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lisaluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,35 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="390" selection-end="390" vertical-scroll-proportion="0.4373178">
-              <folding>
-                <marker date="1393233899000" expanded="true" signature="509:1610" placeholder="..." />
-                <marker date="1393233899000" expanded="true" signature="1662:2130" placeholder="..." />
-                <marker date="1393233899000" expanded="true" signature="1706:1952" placeholder="..." />
-                <marker date="1393233899000" expanded="true" signature="1735:1943" placeholder="..." />
-              </folding>
+            <state line="16" column="34" selection-start="663" selection-end="663" vertical-scroll-proportion="-10.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paper.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/paper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4224" column="29" selection-start="105006" selection-end="105006" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="360" selection-end="360" vertical-scroll-proportion="-5.625">
+            <state line="2" column="25" selection-start="122" selection-end="122" vertical-scroll-proportion="0.08746356">
               <folding>
                 <marker date="1393231793000" expanded="true" signature="57:70" placeholder="..." />
                 <marker date="1393231793000" expanded="true" signature="247:678" placeholder="..." />
@@ -108,15 +100,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="divisionRaster.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -135,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/inspiration/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/home.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/voroni.js" />
@@ -150,6 +132,7 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/paper.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
@@ -162,8 +145,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="314" />
+    <option name="x" value="134" />
+    <option name="y" value="22" />
     <option name="width" value="1134" />
     <option name="height" value="671" />
   </component>
@@ -227,7 +210,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,11 +228,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
+              <option name="myItemId" value="paper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lisaluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lisaluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lisaluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lisaluo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +373,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: lisaluo">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -597,7 +637,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="314" width="1134" height="671" extended-state="0" />
+    <frame x="134" y="22" width="1134" height="671" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27430555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -680,16 +720,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/paper/examples/Rasters/PhyllotaxisRaster.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="2744" selection-end="24637" vertical-scroll-proportion="-19.083334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.47138965">
@@ -730,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="38" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
@@ -758,42 +781,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/bower_components/paper/examples/Rasters/PhyllotaxisRaster.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="360" selection-end="360" vertical-scroll-proportion="-5.625">
+        <state line="15" column="30" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.125">
           <folding>
-            <marker date="1393231793000" expanded="true" signature="57:70" placeholder="..." />
-            <marker date="1393231793000" expanded="true" signature="247:678" placeholder="..." />
-            <marker date="1393231793000" expanded="true" signature="277:514" placeholder="{...}" />
-            <marker date="1393231793000" expanded="true" signature="328:374" placeholder="{...}" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/paper/examples/Paperjs.org/DivisionRaster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="483" selection-end="483" vertical-scroll-proportion="0.59090906">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/paper/examples/Rasters/Raster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="244" selection-end="864" vertical-scroll-proportion="0.36363637">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/paper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4224" column="29" selection-start="105006" selection-end="105006" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+        <state line="12218" column="0" selection-start="470428" selection-end="470428" vertical-scroll-proportion="7.138418">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="390" selection-end="390" vertical-scroll-proportion="0.4373178">
+        <state line="16" column="34" selection-start="663" selection-end="663" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="122" selection-end="122" vertical-scroll-proportion="0.08746356">
           <folding>
-            <marker date="1393233899000" expanded="true" signature="509:1610" placeholder="..." />
-            <marker date="1393233899000" expanded="true" signature="1662:2130" placeholder="..." />
-            <marker date="1393233899000" expanded="true" signature="1706:1952" placeholder="..." />
-            <marker date="1393233899000" expanded="true" signature="1735:1943" placeholder="..." />
+            <marker date="1393231793000" expanded="true" signature="57:70" placeholder="..." />
+            <marker date="1393231793000" expanded="true" signature="247:678" placeholder="..." />
+            <marker date="1393231793000" expanded="true" signature="277:514" placeholder="{...}" />
+            <marker date="1393231793000" expanded="true" signature="328:374" placeholder="{...}" />
           </folding>
         </state>
       </provider>
