@@ -1,6 +1,8 @@
 // Based on 'JPEG Raster' by Jonathan Puckey:
 // http://www.flickr.com/photos/puckey/3179779686/in/photostream/
 
+console.log('in raster file');
+
 // Create a raster item:
 var raster = new Raster('drugs');
 var loaded = false;
