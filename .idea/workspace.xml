@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="lisaluo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="83" selection-start="656" selection-end="656" vertical-scroll-proportion="0.40966386">
+            <state line="66" column="40" selection-start="2228" selection-end="2228" vertical-scroll-proportion="-5.5102043">
               <folding />
             </state>
           </provider>
@@ -74,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="31" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
+            <state line="23" column="36" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.13476562">
               <folding />
             </state>
           </provider>
@@ -129,12 +130,12 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/test.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/divisionRaster.js" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/paper.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -721,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/paper/examples/Rasters/PhyllotaxisRaster.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="30" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.125">
@@ -808,7 +802,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="83" selection-start="656" selection-end="656" vertical-scroll-proportion="0.40966386">
+        <state line="66" column="40" selection-start="2228" selection-end="2228" vertical-scroll-proportion="-5.5102043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="36" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.13476562">
           <folding />
         </state>
       </provider>

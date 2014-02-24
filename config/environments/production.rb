@@ -21,7 +21,7 @@ Lisaluo::Application.configure do
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
   # CHANGED TO TRUE 2/24/14
-  config.serve_static_assets = true
+  config.serve_static_assets = false
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
