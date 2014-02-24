@@ -10,24 +10,25 @@
   <link rel="stylesheet" href="../css/style.css">
   <script type="text/javascript" src="/bower_components/paper/dist/paper.js"></script>
   <script type="text/paperscript" canvas="myCanvas">
-    // http://en.wikipedia.org/wiki/Lenna
-    // Load from Server:
-    var raster = new Raster('http://upload.wikimedia.org/wikipedia/zh/3/34/Lenna.jpg');
-    // Load from DOM image:
-    // var raster = new Raster('lenna');
-    raster.onLoad = function() {
-    console.log('Successfully loaded image!');
-    };
-    var lastScale = 1;
-    var center = view.center;
-    function onFrame(event) {
-    var scale = (Math.sin(event.time * 2) + 1) / 2;
-    raster.scale(scale / lastScale);
-    lastScale = scale;
-    raster.position = center + [Math.sin(event.time * 3) * 256, Math.sin(event.time * 2.5) * 256];
-    raster.rotate(event.delta * 120);
-    }
+    var circle = new Path.Circle({
+    center: [80, 50],
+    radius: 5,
+    fillColor: 'red'
+    });
+
+    // Create a rasterized version of the path:
+    var raster = circle.rasterize();
+
+    // Move it 100pt to the right:
+    raster.position.x += 100;
+
+    // Scale the path and the raster by 300%, so we can compare them:
+    circle.scale(5);
+    raster.scale(5);
   </script>
+
+
+
 
 </head>
 
