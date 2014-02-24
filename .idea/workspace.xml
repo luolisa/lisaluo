@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-    </list>
+    <list default="true" id="8a8d24c1-bdda-4657-b291-98d1c207b48e" name="Default" comment="" />
     <ignored path="lisaluo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8a8d24c1-bdda-4657-b291-98d1c207b48e" time="1393224642293" ignored="false" />
@@ -45,7 +43,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="844" selection-end="844" vertical-scroll-proportion="0.3360161">
+            <state line="95" column="26" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.2112676">
               <folding />
             </state>
           </provider>
@@ -778,7 +776,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="844" selection-end="844" vertical-scroll-proportion="0.3360161">
+        <state line="95" column="26" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.2112676">
           <folding />
         </state>
       </provider>
