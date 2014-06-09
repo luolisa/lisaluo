@@ -7,12 +7,9 @@ Lisaluo::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
   # You can have the root of your site routed with "root"
   root 'home#index'
-
-  # Root the top menu tabs.
-  get 'portfolio' => 'portfolio#index'
-  get 'projects' => 'projects#index'
-  get 'inspiration' => 'inspiration#index'
-
-
+  
+  resources 'portfolio'
+  resources 'projects'
+  resources 'inspiration'
 
 end

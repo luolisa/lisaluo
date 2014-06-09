@@ -53,11 +53,12 @@
     path.fillColor = raster.getAverageColor(path);
 
     var path = new Path.Rectangle({
-    point: isLandscape
-    ? this.bounds.topCenter.ceil()
-    : this.bounds.leftCenter.ceil(),
-    size: size.floor(),
-    onMouseMove: moveHandler
+      
+      point: isLandscape
+      ? this.bounds.topCenter.ceil()
+      : this.bounds.leftCenter.ceil(),
+      size: size.floor(),
+      onMouseMove: moveHandler
     });
     path.fillColor = raster.getAverageColor(path);
 
@@ -106,7 +107,7 @@
           <%= link_to image_tag("dark_twitter.png"), "https://twitter.com/luoser" %>
           <%= link_to image_tag("dark_plus.png"), "http://tracingroutes.blogspot.com/" %>
         <div id="copyright" align="center">
-            webdesign by Lisa Luo.2014-03-24.
+            webdesign by Lisa Luo.2014-06-08.
         </div>
        </div>
    </div>
@@ -124,13 +125,12 @@
   </div>
 
   <div class="content">
-    <!--Should be the yield for the content......-->
     <%= yield %>
 
   </div>
-  <div id="mainpage_footer">
+<!--   <div id="mainpage_footer">
     WEBSITE UNDER CONSTRUCTION!
-  </div>
+  </div> -->
 
 </div>
 </body>
