@@ -19,6 +19,12 @@ under_construction{
   padding:30px;
 }
 
+#raster{
+  width:  20px;
+  height: 20px;
+  margin: 0px;
+}
+
 // SIDEBAR STYLING
 //////////////////
 #sidebar{
@@ -65,7 +71,7 @@ under_construction{
 
 #copyright{
   font-size:x-small;
-  color:white;
+  color:rgb(80,82,83);
 }
 
 // MAINPAGE STYLING
@@ -118,12 +124,6 @@ under_construction{
   text-align:right;
   border-bottom:3px dotted;
 }
-
-//.dotted_break{
-//  border-top:3px dotted;
-//  height:2px;
-//  width:100%;
-//}
 
 .media-row{
   padding:20px;
