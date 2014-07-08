@@ -85,29 +85,41 @@
       });
     }
   </script>
-
 </head>
 
 <body>
  <!--Design the sidebar for the application.-->
- <div id="sidebar">
-   <div class="shadow" align="center">
-      <div id="sidebar_image">
-        <%= link_to image_tag("bliss.jpg"), :controller => "home" %>
+ <div id='sidebar'>
+   <div class='shadow' align='center'>
+      <div id='sidebar_image'>
+        <%= link_to image_tag('bliss.jpg'), :controller => 'home' %>
       </div>
-      <div id="sidebar_name">Lisa Luo</div>
-      <div class="sidebar_text">developer & designer</div>
-      <div id="sidebar_quote">
+      <div id='sidebar_name'>Lisa Luo</div>
+      <div class='sidebar_text'>developer & designer</div>
+      <div id='sidebar_quote'>
         baby,<br> 
         type me in plain text<br>
         so you can <br>see the real me<br>
       </div>
-      <div id="sidebar_footer" align="center">
-          <%= link_to image_tag("dark_linkedin.png"), "http://www.linkedin.com/pub/lisa-luo/36/770/4a" %>
-          <%= link_to image_tag("dark_facebook.png"), "https://www.facebook.com/lluo92" %>
-          <%= link_to image_tag("dark_twitter.png"), "https://twitter.com/luoser" %>
-          <%= link_to image_tag("dark_plus.png"), "http://tracingroutes.blogspot.com/" %>
-        <div id="copyright" align="center">
+      <div id='sidebar_footer' align='center'>
+          <a target='_blank' href='https://www.facebook.com/lluo92'>
+            <i class='icon-facebook_circle gradient icon3x' aria-hidden="true"></i>
+          </a>
+          <a target='_blank' href='https://twitter.com/luoser'>
+            <i class='icon-twitter_circle gradient icon3x'></i>
+          </a>
+          <a target='_blank' href='http://www.linkedin.com/pub/lisa-luo/36/770/4a'>
+            <i class='icon-linked_in_circle gradient icon3x'></i>
+          </a>
+
+          <a target='_blank' href='https://github.com/luoser'>
+            <i class='icon-git_circle gradient icon3x'></i>
+          </a>
+
+          <a target='_blank' href='https://soundcloud.com/luoser'>
+            <i class='icon-soundcloud_circle gradient icon3x'></i>
+          </a>
+        <div id='copyright' align='center'>
             webdesign by lisa.2014-07-07.
         </div>
        </div>

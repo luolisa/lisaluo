@@ -1,11 +1,10 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 // By Lisa Luo
 // Created 2/16/2014
 // Last modified 2/16/2014
 
+a:hover, a:visited, a:link, a:active {
+  text-decoration:none;
+}
 
 html *{
   font-family: "Andale Mono", monospace;
