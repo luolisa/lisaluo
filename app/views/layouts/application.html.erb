@@ -10,13 +10,15 @@
   <script src='http://code.jquery.com/jquery-1.9.0.js'></script>
   <script src='http://code.jquery.com/jquery-migrate-1.2.1.js'></script>
 
+  <!-- Masonry -->
+  <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
+
   <!-- Load Paper.js library -->
   <!--<script type='text/javascript' src='/bower_components/paper/dist/paper.js'></script>-->
   <script type='text/javascript' src='js/paper.js'></script>
   <script type='text/paperscript' canvas='myCanvas'>
     // Based on 'JPEG Raster' by Jonathan Puckey:
     // http://www.flickr.com/photos/puckey/3179779686/in/photostream/
-
     // Create a raster item:
     var raster = new Raster('drugs');
     var loaded = false;
@@ -26,7 +28,6 @@
       onResize();
     });
 
-    // Make the raster invisible:
     raster.visible = false;
 
     var lastPos = view.center;
@@ -39,9 +40,6 @@
 
       var size = this.bounds.size.clone();
       var isLandscape = size.width > size.height;
-
-      // If the path is in landscape orientation, we're going to
-      // split the path horizontally, otherwise vertically:
 
       size /= isLandscape ? [2, 1] : [1, 2];
 
@@ -71,13 +69,8 @@
       if (!loaded)
         return;
       project.activeLayer.removeChildren();
-
-      // Transform the raster so that it fills the bounding rectangle
-      // of the view:
       raster.fitBounds(view.bounds, true);
 
-      // Create a path that fills the view, and fill it with
-      // the average color of the raster:
       new Path.Rectangle({
         rectangle: view.bounds,
         fillColor: raster.getAverageColor(view.bounds),
