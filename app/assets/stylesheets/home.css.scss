@@ -2,20 +2,19 @@ a:hover, a:visited, a:link, a:active {
   text-decoration:none;
 }
 
+.masonry{
+  align: center
+}
+
 .item { 
-  width:  30%;
+  width:  32%;
   height: 250px;
   float: left;
 }
-
-.item.w2 { width:  300px }
-.item.w3 { width:  400px }
-.item.w4 { width:  500px }
-
-.item.h2 { height: 300px }
+.item.w2 { width:  50% }
+.item.h2 { height: 350px }
 .item.h3 { height: 400px }
 .item.h4 { height: 500px }
-
 
 html *{
   font-family: "Andale Mono", monospace;
