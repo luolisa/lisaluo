@@ -1,8 +1,81 @@
-
-<div class="js-masonry" data-masonry-options='{ "itemSelector": ".item", "columnWidth": 200 }'>
-  <div class="item">hey</div>
-  <div class="item">hi</div>
+<div id="container" class="js-masonry"
+  data-masonry-options='{ "isFitWidth": false, "itemSelector": ".item", "gutter": 10 }'>
+  <div class="item">
+	  <%= link_to image_tag('inspiration/calvino.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+	</div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/danny_boy.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/ekkimukk.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+	  <%= link_to image_tag('inspiration/holland.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+	</div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/inches.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/jack.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+	  <%= link_to image_tag('inspiration/jp_auclair.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+	</div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/kiwi.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/kurt.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+   <div class="item">
+  	<%= link_to image_tag('inspiration/leon_plant.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/mysterious_skin.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/petit_prince.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/pierrot.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item h3">
+  	<%= link_to image_tag('inspiration/portrait.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item w4 h4">
+  	<%= link_to image_tag('inspiration/pulp_fiction.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/requiem.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/riptide_book.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/riptide_woman.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/riptide.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/stanley_pineapple.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/story_for_tomorrow.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
+  <div class="item">
+  	<%= link_to image_tag('inspiration/thin_red_line.jpg'), 'https://vimeo.com/93560841', target: '_blank' %>
+  </div>
 </div>
+
+<script>
+	var container = document.querySelector('#container');
+	var msnry;
+	// initialize Masonry after all images have loaded
+	imagesLoaded( container, function() {
+	  msnry = new Masonry( container );
+	});
+</script>
 
 <!--Google Analytics-->
 <script>

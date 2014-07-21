@@ -1,14 +1,21 @@
-// By Lisa Luo
-// Created 2/16/2014
-// Last modified 2/16/2014
-
 a:hover, a:visited, a:link, a:active {
   text-decoration:none;
 }
 
-// Masonry
-.item { width: 25%; }
-.item.w2 { width: 50%; }
+.item { 
+  width:  30%;
+  height: 250px;
+  float: left;
+}
+
+.item.w2 { width:  300px }
+.item.w3 { width:  400px }
+.item.w4 { width:  500px }
+
+.item.h2 { height: 300px }
+.item.h3 { height: 400px }
+.item.h4 { height: 500px }
+
 
 html *{
   font-family: "Andale Mono", monospace;
