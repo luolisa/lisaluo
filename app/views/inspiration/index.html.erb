@@ -1,4 +1,15 @@
-<div id="masonry" class="js-masonry" align='center'
+<script>
+  $(function () {
+  var $container = $('#masonry-container');
+    $container.imagesLoaded(function(){
+      $container.masonry({
+       itemSelector : '.item',
+    });
+  });
+});
+</script>
+
+<div id="masonry-container" class="js-masonry" align='center'
   data-masonry-options='{ "isFitWidth": true, "itemSelector": ".item", "gutter": 10 }'>
   <div class="item h2">
 	  <%= image_tag('inspiration/calvino.jpg') %>
@@ -67,15 +78,6 @@
   	<%= image_tag('inspiration/riptide.png') %>
   </div>
 </div>
-
-<script>
-	var container = document.querySelector('#masonry');
-	var msnry;
-	// initialize Masonry after all images have loaded
-	imagesLoaded( container, function() {
-	  msnry = new Masonry( container );
-	});
-</script>
 
 <!--Google Analytics-->
 <script>

@@ -1,6 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-ruby "2.1.1"
+ruby '2.1.1'
 
 gem 'bower-rails', '~> 0.7.3'
 
