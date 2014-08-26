@@ -6,6 +6,10 @@ a:hover, a:visited, a:link, a:active {
   align: center
 }
 
+#wall-masoned {
+  text-align: center;
+}
+
 .item { 
   width:  32%;
   height: 250px;
