@@ -7,6 +7,10 @@
         'itemSelector': '.item',
         'isFitWidth': true,
       });
+      $('.item img').lazyload({
+        effect: 'fadeIn'
+      });
+      $('.item img').trigger('scroll');
     });
   });
 </script>
