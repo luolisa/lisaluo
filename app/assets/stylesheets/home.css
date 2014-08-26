@@ -28,28 +28,24 @@ under_construction{
   padding:30px;
 }
 
-#raster{
-  width:  20px;
-  height: 20px;
-  margin: 0px;
+.raster{
+  width:  100%;
+  height: 100%;
 }
 
-// SIDEBAR STYLING
-//////////////////
+/* Sidebar */
 #sidebar{
   width:310px;
   background:black;
-  //color:white;
-  position:fixed; // Keeps sidebar from scrolling with page.
+  position:fixed; 
   top:0;
   left:0;
-  bottom:0; // adjust as needed for a footer
+  bottom:0;
 }
 
 #sidebar_image{
   margin-top:20px;
   margin-bottom:20px;
-  //width:95%;
 }
 
 #sidebar_name{
@@ -70,10 +66,10 @@ under_construction{
   text-align:center;
 }
 
-// For social media icons.
+/* For social media icons. */
 #sidebar_footer{
-  position:absolute; // Absolute fixes footer to bottom.
-  bottom:25px;       // Center in the HTML using align.
+  position:absolute; 
+  bottom:25px;       
   height:50px;
   width:100%;
 }
@@ -83,10 +79,7 @@ under_construction{
   color:rgb(80,82,83);
 }
 
-// MAINPAGE STYLING
-///////////////////
-// Pixel buffer for the sidebar
-
+/* Mainpage styling */
 .container{
   background-color:black;
   height:100%;
@@ -102,11 +95,10 @@ under_construction{
 }
 
 .mainpage_text{
-  margin-left:10px; // Because this falls under the mainpage hierarchy, already
-  //color:white;      // 300px moved over.
+  margin-left:10px;
 }
 
-// Portfolio, Projects, Inspirations
+/* Portfolio, Projects, Inspirations */
 .mainpage_tabs{
   padding:20px;
   font-size:xx-large;
@@ -114,8 +106,8 @@ under_construction{
 }
 
 #mainpage_footer{
-  position:fixed; // Absolute fixes footer to bottom.
-  bottom:25px;       // Center in the HTML using align.
+  position:fixed; 
+  bottom:25px;       
   height:50px;
   width:100%;
   text-align:center;
@@ -127,7 +119,6 @@ under_construction{
 }
 
 .category_name{
-  //color:white;
   font-size:x-large;
   padding:20px;
   text-align:right;
@@ -136,7 +127,6 @@ under_construction{
 
 .media-row{
   padding:20px;
-  //height:200px;
   text-align:center;
 }
 
@@ -169,4 +159,22 @@ under_construction{
 .invisible{
   display:none;
 }
+
+/* About page */
+.haikus {
+  position: relative;
+  top:60px;
+  text-align: center;
+}
+
+dgreen { 
+  color:#00703C;
+  font-style: bold;
+}
+ksrgreen { color: #2BDE73; }
+dali { color: #FF9F40; }
+
+
+
+
 
