@@ -22,7 +22,7 @@
 
   <script>
     $(document).ready(function() {
-      $('.shadow img').lazyload({
+      $('.lazy img').lazyload({
         effect: 'fadeIn',
       })
     });
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class='content'>
+    <div class='content lazy'>
       <%= yield %>
     </div>
   </div>
