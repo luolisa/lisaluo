@@ -7,8 +7,7 @@
     var doOnLoad = function() {
       var raster = new Raster('drugs');
 	    var loaded = false;
-	    console.log('loaded? out' + loaded);
-
+	    
       raster.on('load', function() {
         loaded = true;
         onResize();
