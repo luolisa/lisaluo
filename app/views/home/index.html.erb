@@ -1,20 +1,81 @@
 <!--Set up the Division Raster-->
 <img id="drugs" style="display: none" src="assets/drugs.png">
+<canvas id="myCanvas" resize="true"></canvas>
+
+<script type='text/paperscript' canvas='myCanvas'>
+    console.log('hey');
+    var count = 0;
+
+    var doOnLoad = function() {
+      console.log('loading');
+      var raster = new Raster('drugs');
+	    var loaded = false;
+	    console.log('loaded? out' + loaded);
+
+      raster.on('load', function() {
+        loaded = true;
+        console.log('loaded');
+        console.log('loaded? in' + loaded);
+        count += 1;
+        console.log('count: ' + count);
+        if (count != 1) {
+        	location.reload();
+        }
+        onResize();
+      });
+
+      raster.visible = false;
+
+      var lastPos = view.center;
+      function moveHandler(event) {
+        if (!loaded)
+          return;
+        if (lastPos.getDistance(event.point) < 10)
+          return;
+        lastPos = event.point;
+
+        var size = this.bounds.size.clone();
+        var isLandscape = size.width > size.height;
+
+        size /= isLandscape ? [2, 1] : [1, 2];
+
+        var path = new Path.Rectangle({
+          point: this.bounds.topLeft.floor(),
+          size: size.ceil(),
+          onMouseMove: moveHandler
+        });
+
+        path.fillColor = raster.getAverageColor(path);
+
+        var path = new Path.Rectangle({
+          
+          point: isLandscape
+          ? this.bounds.topCenter.ceil()
+          : this.bounds.leftCenter.ceil(),
+          size: size.floor(),
+          onMouseMove: moveHandler
+        });
+
+        path.fillColor = raster.getAverageColor(path);
+
+        this.remove();
+      }
+
+      function onResize(event) {
+        if (!loaded)
+          return;
+        project.activeLayer.removeChildren();
+        raster.fitBounds(view.bounds, true);
+
+        new Path.Rectangle({
+          rectangle: view.bounds,
+          fillColor: raster.getAverageColor(view.bounds),
+          onMouseMove: moveHandler
+        });
+      }
+    }
+    $(document).ready(doOnLoad);
+    $(window).bind('page:change', doOnLoad);
+  </script>
 
 
-<div id="raster">
-	<canvas id="myCanvas" resize="true" > </canvas>
-</div>
-
-
-<!--Google Analytics-->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-48165910-1', 'lisaluo.com');
-    ga('send', 'pageview');
-
-</script>

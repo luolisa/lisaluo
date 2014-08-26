@@ -3,7 +3,7 @@
 <head>
   <title>Lisa Luo</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-no-turbolink' => true %>
   <%= csrf_meta_tags %>
 
   <!--jQuery migrate-->
@@ -12,120 +12,77 @@
 
   <!-- Load Paper.js library -->
   <script type='text/javascript' src='/assets/paper.js'></script>
-  <script type='text/paperscript' canvas='myCanvas'>
-    var raster = new Raster('drugs');
-    var loaded = false;
-
-    raster.on('load', function() {
-      loaded = true;
-      onResize();
-    });
-
-    raster.visible = false;
-
-    var lastPos = view.center;
-    function moveHandler(event) {
-      if (!loaded)
-        return;
-      if (lastPos.getDistance(event.point) < 10)
-        return;
-      lastPos = event.point;
-
-      var size = this.bounds.size.clone();
-      var isLandscape = size.width > size.height;
-
-      size /= isLandscape ? [2, 1] : [1, 2];
-
-      var path = new Path.Rectangle({
-        point: this.bounds.topLeft.floor(),
-        size: size.ceil(),
-        onMouseMove: moveHandler
-      });
-
-      path.fillColor = raster.getAverageColor(path);
-
-      var path = new Path.Rectangle({
-        
-        point: isLandscape
-        ? this.bounds.topCenter.ceil()
-        : this.bounds.leftCenter.ceil(),
-        size: size.floor(),
-        onMouseMove: moveHandler
-      });
-
-      path.fillColor = raster.getAverageColor(path);
-
-      this.remove();
-    }
-
-    function onResize(event) {
-      if (!loaded)
-        return;
-      project.activeLayer.removeChildren();
-      raster.fitBounds(view.bounds, true);
-
-      new Path.Rectangle({
-        rectangle: view.bounds,
-        fillColor: raster.getAverageColor(view.bounds),
-        onMouseMove: moveHandler
-      });
-    }
-  </script>
+  
 </head>
 
 <body>
- <!--Design the sidebar for the application.-->
- <div id='sidebar'>
-   <div class='shadow' align='center'>
-      <div id='sidebar_image'>
-        <%= link_to image_tag('bliss.jpg'), :controller => 'home' %>
-      </div>
-      <div id='sidebar_name'>Lisa Luo</div>
-      <div class='sidebar_text'>fabricator ;-)</div>
-      <div id='sidebar_quote'>
-        <br>
-        baby,<br> 
-        type me in plain text<br>
-        so you can see <br> the real me<br>
-      </div>
-
-      <div id='sidebar_footer' align='center'>
-
-          <a target='_blank' href='http://blog.lisaluo.com/'>
-            <i class='icon-pen gradient icon3x' aria-hidden='true'></i>
-          </a>
-          <a target='_blank' href='https://twitter.com/luoser'>
-            <i class='icon-twitter_circle gradient icon3x'></i>
-          </a>
-          <a target='_blank' href='http://www.linkedin.com/pub/lisa-luo/36/770/4a'>
-            <i class='icon-linked_in_circle gradient icon3x'></i>
-          </a>
-
-          <a target='_blank' href='https://github.com/luoser'>
-            <i class='icon-git_circle gradient icon3x'></i>
-          </a>
-
-          <a target='_blank' href='https://soundcloud.com/luoser'>
-            <i class='icon-soundcloud_circle gradient icon3x'></i>
-          </a>
-        <div id='copyright' align='center'>
-            webdesign by lisa.2014-07-20.
+   <!--Design the sidebar for the application.-->
+   <div id='sidebar'>
+     <div class='shadow' align='center'>
+        <div id='sidebar_image'>
+          <%= link_to image_tag('bliss.jpg'), controller: :about %>
         </div>
-       </div>
-   </div>
-</div>
+        <div id='sidebar_name'>Lisa Luo</div>
+        <div class='sidebar_text'>fabricator</div>
+        <div id='sidebar_quote'>
+          <br>
+          baby,<br> 
+          type me in plain text<br>
+          so you can see <br> the real me<br>
+        </div>
 
-<!--Lay out the main page-->
-<div class='mainpage'>
-  <div class='mainpage_tabs' align='center'>
-    <div class='row-fluid'>
-      <div class='span4'><a href='portfolio'>Portfolio</a></div>
-      <div class='span4'><a href='projects'>Projects</a></div>
-      <div class='span4'><a href='inspiration'>Inspiration</a></div>
+        <div id='sidebar_footer' align='center'>
+
+            <a target='_blank' href='http://blog.lisaluo.com/'>
+              <i class='icon-pen gradient icon3x' aria-hidden='true'></i>
+            </a>
+            <a target='_blank' href='https://twitter.com/luoser'>
+              <i class='icon-twitter_circle gradient icon3x'></i>
+            </a>
+            <a target='_blank' href='http://www.linkedin.com/pub/lisa-luo/36/770/4a'>
+              <i class='icon-linked_in_circle gradient icon3x'></i>
+            </a>
+
+            <a target='_blank' href='https://github.com/luoser'>
+              <i class='icon-git_circle gradient icon3x'></i>
+            </a>
+
+            <a target='_blank' href='https://soundcloud.com/luoser'>
+              <i class='icon-soundcloud_circle gradient icon3x'></i>
+            </a>
+          <div id='copyright' align='center'>
+              webdesign by yours truly.
+          </div>
+         </div>
+     </div>
+  </div>
+
+  <!--Lay out the main page-->
+  <div class='mainpage'>
+    <div class='mainpage_tabs' align='center'>
+      <div class='row-fluid'>
+        <div class='span4'><a href='portfolio'><port>Portfolio</port></a></div>
+        <div class='span4'><a href='projects'><proj>Projects</proj></a></div>
+        <div class='span4'><a href='inspiration'>Inspiration</a></div>
+      </div>
+    </div>
+
+    <div class='content'>
+      <%= yield %>
     </div>
   </div>
 
-  <div class='content'>
-    <%= yield %>
+  <!--Google Analytics-->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48165910-1', 'lisaluo.com');
+      ga('send', 'pageview');
+
+  </script>
+
 </body>
 </html>
