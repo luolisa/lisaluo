@@ -22,17 +22,19 @@
 
   <script>
     $(document).ready(function() {
-      $('img').lazyload({
-        effect: 'fadeIn'
-      });
+      $('.shadow img').lazyload({
+        effect: 'fadeIn',
+      })
     });
   </script>
   
    <!--Design the sidebar for the application.-->
    <div id='sidebar'>
-     <div class='shadow' align='center'>
+     <div class='' align='center'>
         <div id='sidebar_image'>
-          <%= link_to image_tag('bliss.jpg'), controller: :about %>
+          <a href='about'>
+            <img src='/assets/bliss.jpg'> </a>
+          
         </div>
         <div id='sidebar_name'>Lisa Luo</div>
         <div class='sidebar_text'>fabricator</div>

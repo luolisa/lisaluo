@@ -7,15 +7,15 @@
         'itemSelector': '.item',
         'isFitWidth': true,
       });
-      $('.item img').lazyload({
-        effect: 'fadeIn'
-      });
-      $('.item img').trigger('scroll');
+      // $('img.item').lazyload({
+      //   effect: 'fadeIn'
+      // });
+      // $('img.item').trigger('scroll');
     });
   });
 </script>
 
-<div id='wall-masoned' class='js-masonry' >
+<div id='wall-masoned' class='js-masonry shadow' >
   <div class="item h2">
 	  <%= image_tag('inspiration/calvino.jpg') %>
 	</div>
