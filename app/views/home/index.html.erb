@@ -3,24 +3,14 @@
 <canvas id="myCanvas" resize="true"></canvas>
 
 <script type='text/paperscript' canvas='myCanvas'>
-    console.log('hey');
-    var count = 0;
 
     var doOnLoad = function() {
-      console.log('loading');
       var raster = new Raster('drugs');
 	    var loaded = false;
 	    console.log('loaded? out' + loaded);
 
       raster.on('load', function() {
         loaded = true;
-        console.log('loaded');
-        console.log('loaded? in' + loaded);
-        count += 1;
-        console.log('count: ' + count);
-        if (count != 1) {
-        	location.reload();
-        }
         onResize();
       });
 
