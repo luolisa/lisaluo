@@ -1,10 +1,6 @@
 <script>
-  $('img').lazyload();
-
   $(document).ready(function() {
-    var $wall = $('#wall-masoned');
-    console.log('wall? ' + typeof $wall);
-    
+    var $wall = $('#wall-masoned');    
     $wall.imagesLoaded(function() {
       $wall.masonry({
         'gutter': 10,
