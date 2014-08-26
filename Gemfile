@@ -11,6 +11,8 @@ gem 'rails', '4.0.0'
 #gem 'sqlite3'
 gem 'pg'  #changed for Heroku deployment
 
+gem 'lazyload-rails'
+
 # Use SCSS for stylesheets
 # gem 'sass-rails', '~> 4.0.0'
 
