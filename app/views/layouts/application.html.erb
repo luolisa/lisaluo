@@ -21,10 +21,12 @@
 <body>
 
   <script>
-    $(document).ready(function() {
-      $('.lazy img').lazyload({
-        effect: 'fadeIn',
-      })
+    $('.lazy img').lazyload({
+      threshold: 50,
+      effect: 'fadeIn',
+    });
+    $(window).load(function() {
+      $("html, body").trigger("scroll");
     });
   </script>
   
