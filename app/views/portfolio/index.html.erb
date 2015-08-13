@@ -1,7 +1,31 @@
+  <script>
+    $('.lazy img').lazyload({
+      threshold: 50,
+      effect: 'fadeIn',
+    });
+  </script>
+
 <div class='category_name'> Film </div>
 <div class='media-row'>
   <div class='row-fluid '>
     <div class='span8' style='float: none; margin: 0 auto;'>
+      <div class='shadow'>
+        <%= link_to image_tag('samsara.png'), 'https://vimeo.com/135436278', target: '_blank', lazy: true %>
+      </div>
+      <div class='caption'>S A M S A R A</div>
+    </div>
+  </div>
+</div>
+
+<div class='media-row'>
+  <div class='row-fluid'>
+    <div class='span6'>
+      <div class='shadow'>
+        <%= link_to image_tag('neck.png'), 'https://www.youtube.com/watch?v=ysQ-Y4GEPgE', target: '_blank', lazy: true %>
+      </div>
+      <div class='caption'>PROTECT YOUR NECK</div>
+    </div>
+    <div class='span6'>
       <div class='shadow'>
         <%= link_to image_tag('routes_trailer.png'), 'https://vimeo.com/93560841', target: '_blank' %>
       </div>
@@ -9,6 +33,7 @@
     </div>
   </div>
 </div>
+
 
 <div class='media-row'>
   <div class='row-fluid'>
@@ -27,8 +52,24 @@
   </div>
 </div>
 
-
 <div class='category_name'> Animation </div>
+
+<div class='media-row'>
+  <div class='row-fluid'>
+    <div class='span6'>
+      <div class='shadow'>
+        <%= link_to image_tag('ursinus.png'), 'https://www.youtube.com/watch?v=wsLh49dqhyM', target: '_blank' %>
+      </div>
+      <div class='caption'>URSINUS MAXIMUS</div>
+    </div>
+    <div class='span6'>
+      <div class='shadow'>
+        <%= link_to image_tag('hackysack.png'), 'https://vimeo.com/129252946', target: '_blank' %>
+      </div>
+      <div class='caption'>HACKY SACK ♥︎</div>
+    </div>
+  </div>
+</div>
 
 <div class='media-row'>
     <div class='row-fluid'>
