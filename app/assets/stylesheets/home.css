@@ -101,6 +101,7 @@ html *{
 /* Portfolio, Projects, Inspirations */
 .mainpage_tabs{
   margin:2%;
+  padding-bottom: 5%;
   font-size:2vw;
   color:white;
 }
@@ -169,8 +170,3 @@ dgreen {
 ksrgreen { background-color: #2BDE73; }
 dali { background-color: #FF9F40; }
 hackny { background-color: #EC3F34; }
-
-
-
-
-

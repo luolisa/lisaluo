@@ -7,20 +7,16 @@
         'itemSelector': '.item',
         'isFitWidth': true,
       });
-      // $('img.item').lazyload({
-      //   effect: 'fadeIn'
-      // });
-      // $('img.item').trigger('scroll');
     });
   });
 </script>
 
 <div id='wall-masoned' class='js-masonry lazy' >
   <div class="item h2">
-	  <%= image_tag('inspiration/calvino.jpg') %>
+	  <%= image_tag('inspiration/calvino.jpg', class: 'img-responsive aspect') %>
 	</div>
   <div class="item">
-  	<%= link_to image_tag('inspiration/danny_boy.png'), 'https://www.youtube.com/watch?v=l89fv5aoUjo', target: '_blank' %>
+  	<%= link_to image_tag('inspiration/danny_boy.png'), 'https://www.youtube.com/watch?v=l89fv5aoUjo', class: 'img-responsive', target: '_blank' %>
   </div>
   <div class="item h4">
   	<%= link_to image_tag('inspiration/portrait.jpg'), 'https://librivox.org/a-portrait-of-the-artist-as-a-young-man-by-james-joyce/', target: '_blank' %>
