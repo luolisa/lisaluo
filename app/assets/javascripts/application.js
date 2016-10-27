@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require masonry.pkgd.min.js
 //= require imagesloaded.pkgd.js
 //= require turbolinks
