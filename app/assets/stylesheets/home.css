@@ -121,11 +121,20 @@ html *{
   padding:2%;
   text-align:right;
   border-bottom:3px dotted;
+  margin-bottom: 3%;
+}
+
+.descrip {
+  padding: 1%;
 }
 
 .media-row{
   padding:2%;
   text-align:center;
+}
+
+.media{
+  padding-bottom: 3%
 }
 
 .center-block{
