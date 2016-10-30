@@ -63,14 +63,35 @@
       <div class='mainpage_tabs' align='center'>
         <div class='col-md-4'><a href='portfolio'><port>Art</port></a></div>
         <div class='col-md-4'><a href='projects'><proj>Technology</proj></a></div>
-        <div class='col-md-4'><a href='inspiration'>Inspiration</a></div>
+        <div class='col-md-4'><a href='inspiration'><insp>Inspiration</insp></a></div>
       </div>
 
       <div class='content lazy'>
         <%= yield %>
       </div>
+      
     </div>
   </div>
+
+  <script>
+    $('port').hover(function(){
+      $('port').css('background-color','#FFF599');
+      },function(){
+      $('port').css('background-color','white');
+    });
+
+    $('proj').hover(function(){
+      $('proj').css('background-color','#FFF599');
+      },function(){
+      $('proj').css('background-color','white');
+    });
+
+    $('insp').hover(function(){
+      $('insp').css('background-color','#FFF599');
+      },function(){
+      $('insp').css('background-color','white');
+    });
+  </script>
 
   <!--Google Analytics-->
   <script>
