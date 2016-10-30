@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
   <title>Lisa Luo</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -11,7 +11,6 @@
   <script src='http://code.jquery.com/jquery-migrate-1.2.1.js'></script>
 
   <script src='/assets/masonry.pkgd.min.js'></script>
-  <script src='/assets/lazyload.js'></script>
 
   <!-- Load Paper.js library -->
   <script type='text/javascript' src='/assets/paper.js'></script>
@@ -19,74 +18,61 @@
 </head>
 
 <body>
-
-  <script>
-    $('.lazy img').lazyload({
-      threshold: 50,
-      effect: 'fadeIn',
-    });
-    $(window).load(function() {
-      $("html, body").trigger("scroll");
-    });
-  </script>
   
    <!--Design the sidebar for the application.-->
    <div id='sidebar'>
-     <div class='' align='center'>
-        <div id='sidebar_image'>
-          <a href='about'>
-            <img src='/assets/bliss.jpg'> </a>
-          
+      <div id='sidebar_image'>
+        <%= link_to image_tag('haskell.png', class: 'img-responsive'), '/about'%>
+      </div>
+
+      <div id='sidebar_name'>Lisa Luo</div>
+      <div class='sidebar_text'>hello friend</div>
+      <div id='sidebar_quote'>
+        welcome to my little world
+      </div>
+
+      <div id='sidebar_footer'>
+
+          <a target='_blank' href='http://blog.lisaluo.com/'>
+            <i class='icon-pen gradient icon2x' aria-hidden='true'></i>
+          </a>
+          <a target='_blank' href='https://twitter.com/luoser'>
+            <i class='icon-twitter gradient icon2x'></i>
+          </a>
+          <a target='_blank' href='http://instagram.com/lisaluolol'>
+            <i class='icon-instagram gradient icon2x'></i>
+          </a>
+          <a target='_blank' href='http://www.linkedin.com/pub/lisa-luo/36/770/4a'>
+            <i class='icon-linked_in gradient icon2x'></i>
+          </a>
+          <a target='_blank' href='https://github.com/luoser'>
+            <i class='icon-git gradient icon2x'></i>
+          </a>
+          <a target='_blank' href='https://soundcloud.com/luoser/sets/dawn-of-the-dulcimer'>
+            <i class='icon-soundcloud gradient icon2x'></i>
+          </a>
+          <a href='mailto:lluo92@gmail.com'>
+            <i class='icon-mail gradient icon2x'></i>
+          </a>
+
+        <div id='copyright'>
+            webdesign by yours truly.
         </div>
-        <div id='sidebar_name'>Lisa Luo</div>
-        <div class='sidebar_text'>software engineer</div>
-        <div id='sidebar_quote'>
-          i like making all sorts of things. welcome to my little world
-        </div>
-
-        <div id='sidebar_footer' align='center'>
-
-            <a target='_blank' href='http://blog.lisaluo.com/'>
-              <i class='icon-pen gradient icon2x' aria-hidden='true'></i>
-            </a>
-            <a target='_blank' href='https://twitter.com/luoser'>
-              <i class='icon-twitter gradient icon2x'></i>
-            </a>
-            <a target='_blank' href='http://instagram.com/lisaluolol'>
-              <i class='icon-instagram gradient icon2x'></i>
-            </a>
-            <a target='_blank' href='http://www.linkedin.com/pub/lisa-luo/36/770/4a'>
-              <i class='icon-linked_in gradient icon2x'></i>
-            </a>
-            <a target='_blank' href='https://github.com/luoser'>
-              <i class='icon-git gradient icon2x'></i>
-            </a>
-            <a target='_blank' href='https://soundcloud.com/luoser/sets/dawn-of-the-dulcimer'>
-              <i class='icon-soundcloud gradient icon2x'></i>
-            </a>
-            <a href='mailto:lluo92@gmail.com'>
-              <i class='icon-mail gradient icon2x'></i>
-            </a>
-
-          <div id='copyright' align='center'>
-              webdesign by yours truly.
-          </div>
-         </div>
-     </div>
+      </div>
   </div>
 
   <!--Lay out the main page-->
-  <div class='mainpage'>
-    <div class='mainpage_tabs' align='center'>
-      <div class='row-fluid'>
-        <div class='span4'><a href='portfolio'><port>Portfolio</port></a></div>
-        <div class='span4'><a href='projects'><proj>Projects</proj></a></div>
-        <div class='span4'><a href='inspiration'>Inspiration</a></div>
+  <div class='container'>
+    <div class='mainpage'>
+      <div class='mainpage_tabs' align='center'>
+        <div class='col-md-4'><a href='portfolio'><port>Portfolio</port></a></div>
+        <div class='col-md-4'><a href='projects'><proj>Projects</proj></a></div>
+        <div class='col-md-4'><a href='inspiration'>Inspiration</a></div>
       </div>
-    </div>
 
-    <div class='content lazy'>
-      <%= yield %>
+      <div class='content lazy'>
+        <%= yield %>
+      </div>
     </div>
   </div>
 

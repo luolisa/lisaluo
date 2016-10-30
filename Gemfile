@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.1.1'
+ruby '2.1.2'
 
 gem 'bower-rails', '~> 0.7.3'
 
@@ -11,16 +11,11 @@ gem 'rails', '4.0.0'
 #gem 'sqlite3'
 gem 'pg'  #changed for Heroku deployment
 
-gem 'lazyload-rails'
-
-# Use SCSS for stylesheets
-# gem 'sass-rails', '~> 4.0.0'
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-# gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

@@ -33,11 +33,12 @@ html *{
   top:0;
   left:0;
   bottom:0;
+  text-align: center;
 }
 
 #sidebar_image{
-  margin-top:7%;
-  margin-bottom:7%;
+  margin-top:10%;
+  margin-bottom:10%;
 }
 
 #sidebar_name{
@@ -101,6 +102,7 @@ html *{
 /* Portfolio, Projects, Inspirations */
 .mainpage_tabs{
   margin:2%;
+  padding-bottom: 5%;
   font-size:2vw;
   color:white;
 }
@@ -169,8 +171,3 @@ dgreen {
 ksrgreen { background-color: #2BDE73; }
 dali { background-color: #FF9F40; }
 hackny { background-color: #EC3F34; }
-
-
-
-
-

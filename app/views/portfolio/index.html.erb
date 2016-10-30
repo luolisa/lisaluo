@@ -1,221 +1,214 @@
-  <script>
-    $('.lazy img').lazyload({
-      threshold: 50,
-      effect: 'fadeIn',
-    });
-  </script>
-
 <div class='category_name'> Film </div>
-<div class='media-row'>
-  <div class='row-fluid '>
-    <div class='span8' style='float: none; margin: 0 auto;'>
-      <div class='shadow'>
-        <%= link_to image_tag('samsara.png'), 'https://vimeo.com/135436278', target: '_blank', lazy: true %>
+
+<div class='row'>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-8' style='float: none; margin: 0 auto;'>
+        <div class='shadow'>
+          <%= link_to image_tag('samsara.png', class: 'img-responsive'), 'https://vimeo.com/135436278', target: '_blank' %>
+        </div>
+        <div class='caption'>S A M S A R A</div>
       </div>
-      <div class='caption'>S A M S A R A</div>
     </div>
   </div>
-</div>
 
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= link_to image_tag('neck.png'), 'https://www.youtube.com/watch?v=ysQ-Y4GEPgE', target: '_blank', lazy: true %>
+  <div class='row'>
+    <div class='media-row'>
+      <div class='col-md-6'>
+        <div class='shadow'>
+          <%= link_to image_tag('neck.png', class: 'img-responsive'), 'https://www.youtube.com/watch?v=ysQ-Y4GEPgE', target: '_blank' %>
+        </div>
+        <div class='caption'>PROTECT YOUR NECK</div>
       </div>
-      <div class='caption'>PROTECT YOUR NECK</div>
-    </div>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= link_to image_tag('routes_trailer.png'), 'https://vimeo.com/93560841', target: '_blank' %>
+      <div class='col-md-6'>
+        <div class='shadow'>
+          <%= link_to image_tag('routes_trailer.png', class: 'img-responsive'), 'https://vimeo.com/93560841', target: '_blank' %>
+        </div>
+        <div class='caption'>ROUTES TRAILER</div>
       </div>
-      <div class='caption'>ROUTES TRAILER</div>
     </div>
   </div>
-</div>
 
-
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= link_to image_tag('choices.png'), 'http://www.youtube.com/watch?v=agTwYPg49xQ', target: '_blank' %>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-6'>
+        <div class='shadow'>
+          <%= link_to image_tag('choices.png', class: 'img-responsive'), 'http://www.youtube.com/watch?v=agTwYPg49xQ', target: '_blank' %>
+        </div>
+        <div class='caption'>CHOICES</div>
       </div>
-      <div class='caption'>CHOICES</div>
-    </div>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= link_to image_tag('summer.png'), 'http://www.youtube.com/watch?v=dX1z6Yko-XY', target: '_blank' %>
+      <div class='col-md-6'>
+        <div class='shadow'>
+          <%= link_to image_tag('summer.png', class: 'img-responsive'), 'http://www.youtube.com/watch?v=dX1z6Yko-XY', target: '_blank' %>
+        </div>
+        <div class='caption'>SUMMER</div>
       </div>
-      <div class='caption'>SUMMER</div>
     </div>
   </div>
 </div>
 
 <div class='category_name'> Animation </div>
 
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= link_to image_tag('ursinus.png'), 'https://www.youtube.com/watch?v=wsLh49dqhyM', target: '_blank' %>
+<div class='row'>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-6'>
+        <div class='shadow'>
+          <%= link_to image_tag('ursinus.png', class: 'img-responsive'), 'https://www.youtube.com/watch?v=wsLh49dqhyM', target: '_blank' %>
+        </div>
+        <div class='caption'>URSINUS MAXIMUS</div>
       </div>
-      <div class='caption'>URSINUS MAXIMUS</div>
+      <div class='col-md-6'>
+        <div class='shadow'>
+          <%= link_to image_tag('hackysack.png', class: 'img-responsive'), 'https://vimeo.com/129252946', target: '_blank' %>
+        </div>
+        <div class='caption'>HACKY SACK ♥︎</div>
+      </div>
     </div>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= link_to image_tag('hackysack.png'), 'https://vimeo.com/129252946', target: '_blank' %>
+  </div>
+
+  <div class='media-row'>
+      <div class='row'>
+        <!--GOLDEN-->
+        <div class='col-md-4'>
+          <div class='shadow'>
+              <%= link_to image_tag('golden.png', class: 'img-responsive'), 'http://www.youtube.com/watch?v=DG5sASJUyzc', target: '_blank' %>
+          </div>
+          <div class='caption'>GOLDEN</div>
+        </div>
+        <!--UNDERDOG-->
+        <div class='col-md-4'>
+          <div class='shadow'>
+              <%= link_to image_tag('underdog.png', class: 'img-responsive'), 'http://www.youtube.com/watch?v=urvdLsAPKMQ', target: '_blank' %>
+          </div>
+          <div class='caption'>UNDERDOG</div>
+        </div>
+        <div class='col-md-4' height='200'>
+          <div class='shadow'>
+              <%= link_to image_tag('bowlingwhite.jpg', class: 'img-responsive'), 'http://www.youtube.com/watch?v=fU1axACXmyM', target: '_blank' %>
+          </div>
+          <div class='caption'>A BOWLING BALL WESTERN</div>
+        </div>
       </div>
-      <div class='caption'>HACKY SACK ♥︎</div>
     </div>
   </div>
 </div>
-
-<div class='media-row'>
-    <div class='row-fluid'>
-      <!--GOLDEN-->
-      <div class='span4'>
-        <div class='shadow'>
-            <%= link_to image_tag('golden.png'), 'http://www.youtube.com/watch?v=DG5sASJUyzc', target: '_blank' %>
-        </div>
-        <div class='caption'>GOLDEN</div>
-      </div>
-      <!--UNDERDOG-->
-      <div class='span4'>
-        <div class='shadow'>
-            <%= link_to image_tag('underdog.png'), 'http://www.youtube.com/watch?v=urvdLsAPKMQ', target: '_blank' %>
-        </div>
-        <div class='caption'>UNDERDOG</div>
-      </div>
-      <div class='span4' height='200'>
-        <div class='shadow'>
-            <%= link_to image_tag('bowlingwhite.jpg'), 'http://www.youtube.com/watch?v=fU1axACXmyM', target: '_blank' %>
-        </div>
-        <div class='caption'>A BOWLING BALL WESTERN</div>
-      </div>
-    </div>
-</div>
-
 
 <div class='category_name'> Modeling </div>
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span4'>
-      <div class='shadow'>
-        <%= image_tag('ICARUS.jpg') %>
-      </div>
-      <div class='caption'></div>
 
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%= image_tag('HAND.jpg') %>
+<div class='row'>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%= image_tag('ICARUS.jpg', class: 'img-responsive') %>
+        </div>
+        <div class='caption'></div>
+
       </div>
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%= image_tag('EAR.jpg') %>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%= image_tag('HAND.jpg', class: 'img-responsive') %>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%= image_tag('EAR.jpg', class: 'img-responsive') %>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= image_tag('room1.jpg') %>
-      </div>
-      <div class='caption'></div>
 
-    </div>
-    <div class='span6'>
-      <div class='shadow'>
-        <%= image_tag('room2.jpg') %>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-6'>
+        <div class='shadow'><%= image_tag('room1.jpg', class: 'img-responsive') %></div>
+      </div>
+      <div class='col-md-6'>
+        <div class='shadow'><%= image_tag('room2.jpg', class: 'img-responsive') %></div>
       </div>
     </div>
-    <!--<div class='span4'>-->
-      <!--<%= image_tag('room4.jpg') %>-->
-    <!--</div>-->
   </div>
 </div>
 
 <div class='category_name'> Drawings </div>
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('sidewalk.jpg')%>
-      </div>
-      <div class='caption'>WHERE THE SIDEWALK BEGINS</div>
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
 
-        <%=image_tag('emerson2010.png')%>
+<div class='row'>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('sidewalk.jpg', class: 'img-responsive')%>
+        </div>
+        <div class='caption'>WHERE THE SIDEWALK BEGINS</div>
       </div>
-      <div class='caption'>SIR EMERSON</div>
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('doodles.jpg')%>
+      <div class='col-md-4'>
+        <div class='shadow'>
+
+          <%=image_tag('emerson2010.png', class: 'img-responsive')%>
+        </div>
+        <div class='caption'>SIR EMERSON</div>
       </div>
-      <div class='caption'>MISC.</div>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('doodles.jpg', class: 'img-responsive')%>
+        </div>
+        <div class='caption'>MISC.</div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class='category_name'> Paintings </div>
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('bridge.jpg')%>
+<div class='row'>
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('bridge.jpg', class: 'img-responsive')%>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('window.jpg', class: 'img-responsive')%>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('bottle.jpg', class: 'img-responsive')%>
+        </div>
       </div>
     </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('window.jpg')%>
+  </div>
+
+  <div class='media-row'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('boat.jpg', class: 'img-responsive')%>
+        </div>
       </div>
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('bottle.jpg')%>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('courtyard.jpg', class: 'img-responsive')%>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='shadow'>
+          <%=image_tag('milk.jpg', class: 'img-responsive')%>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class='media-row'>
-  <div class='row-fluid'>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('boat.jpg')%>
-      </div>
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('courtyard.jpg')%>
-      </div>
-    </div>
-    <div class='span4'>
-      <div class='shadow'>
-        <%=image_tag('milk.jpg')%>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--<div class='category_name'> Photography </div>-->
-
 
 <!--Google Analytics-->
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-48165910-1', 'lisaluo.com');
-    ga('send', 'pageview');
-
+  ga('create', 'UA-48165910-1', 'lisaluo.com');
+  ga('send', 'pageview');
 </script>
