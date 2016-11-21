@@ -2,15 +2,15 @@
 <div class='container-fluid'>
   <div class='row'>
     <div id='raster-img'>
-      <%= image_tag('drugs.png', class:'img-responsive', id: 'drugs', style: 'display:none') %>
+      <%= image_tag('like-that.png', class:'img-responsive', id: 'like-that', style: 'display:none') %>
       <canvas id='myCanvas' style='width:100%;height:100%'></canvas>
 
       <script type='text/paperscript' canvas='myCanvas'>
 
           var doOnLoad = function() {
-            var raster = new Raster('drugs');
+            var raster = new Raster('like-that');
       	    var loaded = false;
-      	    
+
             raster.on('load', function() {
               loaded = true;
               onResize();
@@ -40,7 +40,7 @@
               path.fillColor = raster.getAverageColor(path);
 
               var path = new Path.Rectangle({
-                
+
                 point: isLandscape
                 ? this.bounds.topCenter.ceil()
                 : this.bounds.leftCenter.ceil(),
@@ -74,4 +74,3 @@
     </div>
   </div>
 </div>
-

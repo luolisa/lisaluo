@@ -11,5 +11,4 @@ Lisaluo::Application.routes.draw do
   resources 'portfolio'
   resources 'projects'
   resources 'inspiration'
-
 end
